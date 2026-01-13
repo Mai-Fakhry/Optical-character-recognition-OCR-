@@ -86,10 +86,10 @@ pip install numpy pandas scikit-image scikit-learn opencv-python pillow matplotl
   ---
   
 ## Contact
--Authors:-Mohammed Magdy Taher
-         -Mai Fakhry Mohammed
+- Authors:- Mohammed Magdy Taher
+          - Mai Fakhry Mohammed
 
--Email:-MohammedTaher.6705@gmail.com
-       -salemmay87@gmail.com
+- Email:- MohammedTaher.6705@gmail.com
+        - salemmay87@gmail.com
 
--Questions or changes? message us.
+- Questions or changes? message us.
