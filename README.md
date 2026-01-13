@@ -1,10 +1,10 @@
-# Optical Character Recognition (OCR) ⚡
+# Optical Character Recognition (OCR) 
 
 A simple, reproducible pipeline for generating synthetic character templates and training an OCR model to recognize uppercase letters, lowercase letters, and digits.
 
 ---
 
-## Project overview ✅
+## Project overview 
 
 This repository contains two main notebooks:
 
@@ -15,7 +15,7 @@ A `Datasets/template.zip` archive is also included for quick reuse of the templa
 
 ---
 
-## Repository structure 🔧
+## Repository structure 
 
 - `Datasets/` — dataset archive(s), e.g. `template.zip`.
 - `NoteBooks/` — interactive Jupyter notebooks for dataset generation and training (`template_generator.ipynb`, `OCR_Dataset.ipynb`).
@@ -23,7 +23,7 @@ A `Datasets/template.zip` archive is also included for quick reuse of the templa
 
 ---
 
-## Quick start 💡
+## Quick start 
 
 1. Clone the repo:
 
@@ -46,7 +46,7 @@ cd Optical-character-recognition-OCR-
 
 ---
 
-## Dependencies 📦
+## Dependencies 
 
 Typical Python packages used in the notebooks:
 
@@ -67,7 +67,7 @@ pip install numpy pandas scikit-image scikit-learn opencv-python pillow matplotl
 
 ---
 
-## Notable implementation details 🔍
+## Notable implementation details 
 
 - Image preprocessing: adaptive thresholding, bounding-box cropping, square padding and resizing (default target size: 40×60).
 - Feature extraction: Histogram of Oriented Gradients (HOG) features.
@@ -76,7 +76,7 @@ pip install numpy pandas scikit-image scikit-learn opencv-python pillow matplotl
 
 ---
 
-## Results & Next steps 🚀
+## Results & Next steps 
 
 - The baseline SVM trained on HOG features produces competitive accuracy for synthetic/templates-driven OCR. Suggested improvements:
   - Try convolutional neural networks for better invariance
@@ -86,10 +86,10 @@ pip install numpy pandas scikit-image scikit-learn opencv-python pillow matplotl
   ---
   
 ## Contact
-Authors: Mohammed Magdy Taher
-         Mai Fakhry Mohammed
+-Authors:-Mohammed Magdy Taher
+         -Mai Fakhry Mohammed
 
-Email: MohammedTaher.6705@gmail.com
-       salemmay87@gmail.com
+-Email:-MohammedTaher.6705@gmail.com
+       -salemmay87@gmail.com
 
-Questions or changes? message us.
+-Questions or changes? message us.
